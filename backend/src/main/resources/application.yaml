@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: lucke-todo
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/lucketodo
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+app:
+  jwt:
+    secret: 8TTNzQVu5If5FpDUk+zfqH6rg1clR8r4cVwuj2tPkvU=
+    expiration-minutes: 60

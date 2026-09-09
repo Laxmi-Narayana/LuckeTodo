@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: lucketodo-postgres
+    environment:
+      POSTGRES_DB: lucketodo
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - lucketodo-postgres-data:/var/lib/postgresql/data
+
+volumes:
+  lucketodo-postgres-data:

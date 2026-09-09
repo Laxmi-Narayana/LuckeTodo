@@ -1,0 +1,83 @@
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# =========================
+# Eclipse
+# =========================
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache
+bin/
+
+# =========================
+# Java / Spring Boot
+# =========================
+target/
+build/
+*.class
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+dist/
+.vite/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS / temporary files
+# =========================
+*.tmp
+*.swp
+
+# =========================
+# OS / temporary files
+# =========================
+*.tmp
+*.swp
+
+# =========================
+# Project-specific
+# =========================
+CONTRIBUTING.md
+LuckeTodo Build Prompt.md
+steps.md
+architecture.md
+files.md
+progress.md
+futurescope.md
+
+# =========================
+# Test / Coverage
+# =========================
+coverage/

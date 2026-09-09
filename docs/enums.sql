@@ -1,0 +1,14 @@
+-- LuckeTodo application enum values
+--
+-- These are intentionally NOT created as database ENUM types.
+-- The application (Java) owns and validates these values.
+--
+-- UserRole:
+--   USER
+--
+-- TaskStatus:
+--   TODO
+--   IN_PROGRESS
+--   COMPLETED
+--
+-- This keeps the database schema vendor-neutral.
