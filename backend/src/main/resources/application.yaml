@@ -3,15 +3,16 @@ spring:
     name: lucke-todo
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/lucketodo
-    username: postgres
-    password: postgres
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/lucketodo}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
     driver-class-name: org.postgresql.Driver
+
   jpa:
     hibernate:
       ddl-auto: validate
 
 app:
   jwt:
-    secret: 8TTNzQVu5If5FpDUk+zfqH6rg1clR8r4cVwuj2tPkvU=
-    expiration-minutes: 60
+    secret: ${JWT_SECRET}
+    expiration-minutes: ${JWT_EXPIRATION_MINUTES:60}
