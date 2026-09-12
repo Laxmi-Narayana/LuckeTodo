@@ -81,3 +81,7 @@ futurescope.md
 # Test / Coverage
 # =========================
 coverage/
+
+.env
+.env.*
+!.env.example
